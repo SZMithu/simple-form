@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2ee3e3;
+    font-family: sans-serif;
+}
+.container {
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 5px;
+}
+table {
+    border-collapse: collapse;
+}
+th, td { 
+    padding: 10px;
+     border: 1px solid #aca9a9;
+}
+td input {
+    padding: 10px;
+    outline: none;
+    
+}
